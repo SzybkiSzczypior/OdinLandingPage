@@ -1,0 +1,164 @@
+header{
+    background-color: #1f2937;
+    height:13vmax;
+    display: flex;
+    flex-direction: column;
+}
+#hero_main span:first-of-type  {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+#hero_main span:last-of-type  {
+    font-size: 18px;
+    
+    color: #e5e7eb;
+}
+
+#hero_main {
+    display: flex;
+    justify-content: center;
+}
+#left1 {
+    width: 20vmax;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+}
+#left1 span {
+    justify-content: center;
+    flex-direction: column;
+}
+#left1 button {
+    flex-basis: auto;
+    width: 5vmax;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    background-color: #3882f6;
+}
+.link   {
+    margin-left:5px ;
+}
+#hero_links {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+
+}
+#hlinks{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+ 
+   
+}
+
+#right img {
+    width: 270px;
+    height: auto;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+    justify-content: left;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    justify-content: center;
+    text-align: center;
+}
+
+#card_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vmax;
+    
+
+}
+
+.border {
+    border-style: solid;
+    border-radius: 8px;
+    border-color:#3882f6 ;
+    margin: 1vmax;
+    height: 10vmax;
+
+}
+
+
+
+#qsection   {
+    background-color: #e5e7eb;
+    font-style: italic;
+    height: 12vmax;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3vmax;
+}
+#author {
+    display: flex;
+    flex-direction: row;
+    padding-left: 28vmax;
+}
+#quote  {
+    color: #1f2937;
+    font-size: 36px;
+    width: 31.5vmax;
+}
+#calling    {
+    display: flex;
+    width: 38vmax;
+    background-color: #3882f6;
+    justify-content: space-between;
+    padding: 1vmax;
+}
+.call {
+   
+    color: white;
+    display: flex;
+    justify-content: center;
+   height: 5vmax;
+  
+   margin-bottom: 3vmax;
+   
+}
+
+
+#left2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#signUp {
+    background-color:#3882f6 ;
+    border-color: white;
+    color: white 
+    ;
+    border-style: solid;
+    border-radius:5px ;
+    height: 1.5vmax;
+    margin-top: 15px;
+    
+    
+}
+footer {
+    background-color:#1f2937 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vmax;
+}
